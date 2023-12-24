@@ -1,7 +1,7 @@
 import React from 'react'
 import TodoItem from './TodoItem'
 
-function TodoList({ todos, onDelete ,onComplete={onComplete}}) {
+function TodoList({ todos, onDelete ,onComplete}) {
   return (
     <div>
         {todos.map((todo,index)=>(
