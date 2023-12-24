@@ -16,7 +16,7 @@ export default async function handler(req,res){
             const database = client.db('todolist');
             const collection = database.collection('todos');
 
-            await collection.insertOne({text:todo});
+            await collection.insertOne({text:todo, complete: false});
 
             res.status(201).json({ message: "Todo item added successfully!" });
         } catch (error) {
