@@ -1,0 +1,60 @@
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: rgb(236, 197, 124);
+    text-align: center;
+    padding: 1rem 1rem;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .input {
+    max-width: 80%;
+    padding: 0.5rem;
+    margin-left: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .btn {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(116, 240, 116);
+  }
+  
+  .list {
+    margin: 2rem auto;
+    max-width: 500px;
+  }
+  .list h1 {
+    text-align: center;
+  }
+  
+  .listitem {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: rgb(74, 147, 243);
+    display: grid;
+    grid-template-columns: 50% 20% 20%;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .name {
+    font-size: 1.4rem;
+  }
+  
+  .deletebtn {
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(238, 112, 112);
+  }
